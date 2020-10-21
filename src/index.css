@@ -1,0 +1,33 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.days-wrapper {
+  display: flex;
+  border: 1px solid #333;
+  flex-wrap: wrap;
+}
+
+.days-wrapper div {
+  flex-basis: 14.28%;
+  max-width: 14.28%;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+
+.days-wrapper div:last-child {
+  border-right: none;
+}
+
+.arrow-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
